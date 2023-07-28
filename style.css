@@ -1,0 +1,88 @@
+.Header {
+    padding: 5px;
+    color: color-mix(in srgb, color percentage, color percentage);
+    border: 7px solid rgb(191, 191, 191);
+    text-align: center;
+}
+.Paragraph {
+  padding: 2.5px; 
+  border: 2.5px solid rgb(220, 104, 255); 
+  text-align: center;
+  font-family: sans-serif;
+  margin-top: 15px;
+}
+.box{
+    width: 100px;
+    height: 30px;
+    border: 2.5px solid black;
+    border-radius: 10px;
+    margin:auto;
+    background-color: rgb(255, 255, 255);
+    
+}
+    .box:hover{
+        background-color: rgb(232, 128, 255);
+    }
+.Box {
+        display: flex;
+        padding: 2.5px; 
+        border: 2.5px  rgb(255, 142, 104); 
+        font-family: sans-serif;
+        margin-top: 2px;
+        /* background-color: purple; */
+        justify-content: space-between;
+       
+        /* align-items: left; */
+    }
+    .BoxContainer{
+        display: flex;
+        align-items: left;
+    }
+    
+.TonyBox{
+        border: 2.5px;
+  display:flex;
+  justify-content: center;
+    }
+    .NavBar_Shop{
+        padding-top: 30px;
+    }
+    
+.NavBar_House:hover{
+    filter: invert(100%);
+}
+.NavBar_AboutMe:hover{
+    filter: invert(100%);
+}
+.NavBar_Portfolio:hover{
+    filter: invert(100%);
+}
+.NavBar_Shop:hover{
+    filter: invert(100%);
+}
+.NavBar_ShoppingCart:hover{
+    filter: invert(100%);
+}
+
+.ATag{
+    display: flex;
+    align-items: left;
+    /* background-color: red; */
+}
+.ATagSC{
+    display: flex;
+    align-items: right;
+    /* background-color: green; */
+}
+    
+.BorderPropertyExample{
+    border: 10px  solid rgb(0, 30, 255); 
+    margin-bottom:50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(125, 255, 123);
+    font-size: x-large;
+    font-weight: bolder;
+}
